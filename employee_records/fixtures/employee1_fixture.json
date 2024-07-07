@@ -1,0 +1,222 @@
+[
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "amel morsli",
+      "job_title": "team_leader",
+      "hourly_rate": "15.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA001"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "moronfolu wilfred ogunsiakan (fred)",
+      "job_title": "srcw",
+      "hourly_rate": "13.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA002"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "maria andrew",
+      "job_title": "team_leader",
+      "hourly_rate": "15.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA003"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "afia manu duah",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA004"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "toluope joseph oke",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA005"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "olabisi oladunmoye",
+      "job_title": "srcw",
+      "hourly_rate": "12.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA006"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "adegenga adebowale",
+      "job_title": "srcw",
+      "hourly_rate": "13.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA007"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "ramsey uche ezenagu",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA008"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "harrison aguocha",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA009"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "kevin atkinson",
+      "job_title": "team_leader",
+      "hourly_rate": "15.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA010"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "melisha bell",
+      "job_title": "rcw",
+      "hourly_rate": "13.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA011"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "oluwatobiloba oke (tobi)",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA012"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "vanessa nanjilal",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA013"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "abalene gould-ryan",
+      "job_title": "srcw",
+      "hourly_rate": "13.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA014"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "fracisca dickson",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "bank"
+    },
+    "pk": "JTA015"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "evelyn king acquah",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "bank"
+    },
+    "pk": "JTA016"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "vivian ebele agu",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "bank"
+    },
+    "pk": "JTA017"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "ibukunoluwa o rufai(deborah)",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "bank"
+    },
+    "pk": "JTA018"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "temi esther",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "bank"
+    },
+    "pk": "JTA019"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "ibukun abolade",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "bank"
+    },
+    "pk": "JTA020"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "jamie ponde",
+      "job_title": "srcw",
+      "hourly_rate": "13.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA021"
+  },
+  {
+    "model": "employee_records.employee",
+    "fields": {
+      "staff_name": "toluope adeniji",
+      "job_title": "rcw",
+      "hourly_rate": "12.50",
+      "employment_type": "permanent"
+    },
+    "pk": "JTA022"
+  }
+]
