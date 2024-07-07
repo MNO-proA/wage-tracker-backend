@@ -213,11 +213,14 @@ SIMPLE_JWT = {
     "TOKEN_TYPE_CLAIM": "token_type",
 }
 
+# settings.py
+
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = [
+    'localhost:5173',
     'http://localhost:5173',  
 ]
 
-ALLOWED_HOSTS = ['http://localhost:5173','127.0.0.1']
+ALLOWED_HOSTS = ['jta.pythonanywhere.com', 'localhost', '127.0.0.1']
