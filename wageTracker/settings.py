@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$w)v63u@f23)*d*q%9ixmfvd5$py*cyrxe(7s_275ktw*jgrdd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
 
 
 # Application definition
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
+     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -215,12 +215,39 @@ SIMPLE_JWT = {
 
 # settings.py
 
-CORS_ORIGIN_ALLOW_ALL = False
+
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = [
-    'localhost:5173',
-    'http://localhost:5173',  
+    'https://jta-wage-tracker.netlify.app',
+    'http://localhost:5173'
 ]
 
-ALLOWED_HOSTS = ['jta.pythonanywhere.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['jta-wage-tracker.netlify.app',  'jta.pythonanywhere.com', 'localhost']
+
+CORS_ALLOWED_ORIGINS = [
+    'https://jta-wage-tracker.netlify.app',
+    'http://localhost:5173'
+]
+
+CORS_ALLOW_ALL_ORIGINS = True  # Use this instead of CORS_ORIGIN_ALLOW_ALL
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+

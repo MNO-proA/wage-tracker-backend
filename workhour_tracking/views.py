@@ -7,7 +7,7 @@ from .models import EmployeeAbsence
 from .serializers import EmployeeAbsenceSerializer
 
 class WorkHourListCreateView(generics.ListCreateAPIView):
-    queryset = WorkHour.objects.all()
+    queryset = WorkHour.objects.all().order_by('-shift_start')
     serializer_class = WorkHourSerializer
     permission_classes=[]
 

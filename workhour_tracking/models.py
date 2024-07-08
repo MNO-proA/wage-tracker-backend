@@ -1,5 +1,6 @@
 from django.db import models
 from employee_records.models import Employee
+from decimal import Decimal
 
 
 class WorkHour(models.Model):
@@ -26,7 +27,9 @@ class WorkHour(models.Model):
     house = models.CharField(max_length=10, choices=HOUSE_CHOICES)
 
     def calculate_total_wage(self):
-        return self.staff_name.hourly_rate * (self.total_hours + self.overtime_hours)
+        total_hours = Decimal(self.total_hours)
+        overtime_hours = Decimal(self.overtime_hours)
+        return self.staff_name.hourly_rate * (total_hours + overtime_hours )
 
     def save(self, *args, **kwargs):
         self.total_wage = self.calculate_total_wage()
